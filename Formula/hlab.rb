@@ -1,28 +1,28 @@
 class Hlab < Formula
   desc "One CLI for your entire homelab — orchestrates Terraform, Ansible and Proxmox"
   homepage "https://hlab.sh"
-  version "0.10.4"
+  version "0.10.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/aikssen/hlab/releases/download/v0.10.4/hlab_darwin_arm64"
-      sha256 "13e76ef8f19469dfa6432228696e8ae8713bd68949ab91966acf9a682df11746"
+      url "https://github.com/aikssen/hlab/releases/download/v0.10.5/hlab_darwin_arm64"
+      sha256 "b534002b187ae21a2ea856a9526fbbd5c629799c33de45dd4ac8631f2b995996"
     end
     on_intel do
-      url "https://github.com/aikssen/hlab/releases/download/v0.10.4/hlab_darwin_amd64"
-      sha256 "60cdb8e811817d08a370135accc64c0cb83bd6deda74f52e2750303a80303226"
+      url "https://github.com/aikssen/hlab/releases/download/v0.10.5/hlab_darwin_amd64"
+      sha256 "b2f8ec02ed160543315e1de1eab99f75a9ace97b04dc8b4a88b6afd70b60b5c8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aikssen/hlab/releases/download/v0.10.4/hlab_linux_arm64"
-      sha256 "f3c9416bba71c5c70b497372f1363d9deab3314514a045a7d95b3f703f431775"
+      url "https://github.com/aikssen/hlab/releases/download/v0.10.5/hlab_linux_arm64"
+      sha256 "7babf288dca98e32c5d933320843ce0f31a38e70a26504771c2b919091891c79"
     end
     on_intel do
-      url "https://github.com/aikssen/hlab/releases/download/v0.10.4/hlab_linux_amd64"
-      sha256 "f0f09075d9575c855fc81a0ce4f7531ed5817b27e91d2f74972668edfabe8eac"
+      url "https://github.com/aikssen/hlab/releases/download/v0.10.5/hlab_linux_amd64"
+      sha256 "90f76d5fd65d2e5945a48fc2cb0c11bf0519d72abfdf8d2392afef59be72df18"
     end
   end
 
